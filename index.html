@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Loop 1 - Step 9</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+    <form action="https://echo.htmlacademy.ru" method="post">
+      <div class="bigbox">
+        <div class="bigbox__leftbox leftbox">
+          <div class="leftbox__header">
+            <h2 class="leftbox__heading">My Wallets</h2>
+            <a class="leftbox__link" href="#">
+              <img class="leftbox__img-plus" src="./img/plus.svg" alt="plus img" width="24" height="36">
+            </a>
+          </div>
+          <div class="leftbox__cards">
+            <label class="leftbox__label">
+              <input class="leftbox__input visually-hidden" name="leftbox_type" value="mastercard" type="radio">
+              <span class="leftbox__span card">
+                <img class="card__img" src="./img/visa.svg" alt="visa logo">
+                <span class="card__number">**** **** **** 2562</span>
+                <span class="card__date">Valid thru: 12/17</span>
+              </span>
+            </label>
+            <label class="leftbox__label">
+              <input class="leftbox__input visually-hidden" name="leftbox_type" value="mastercard" type="radio">
+              <span class="leftbox__span card">
+                <img class="card__img" src="./img/mastercard.svg" alt="mastercard logo">
+                <span class="card__number">**** **** **** 2101</span>
+                <span class="card__date">Valid thru: 07/19</span>
+              </span>
+            </label>
+            <label class="leftbox__label">
+              <input class="leftbox__input visually-hidden" name="leftbox_type" value="mastercard" type="radio">
+              <span class="leftbox__span card">
+                <img class="card__img" src="./img/maestro.svg" alt="maestro logo">
+                <span class="card__number">**** **** **** 8335</span>
+                <span class="card__date">Valid thru: 09/17</span>
+              </span>
+            </label>
+          </div>
+        </div>
+
+
+        <div class="bigbox__righbox righbox">
+          <div class="righbox__headerbox">
+            <h2 class="righbox__title">Current Balance</h2>
+            <span class="righbox__number">$720. <sup>00</sup></span>
+          </div>
+          <hr>
+          <ul class="righbox__list">
+            <li class="righbox__item item">
+                <label class="righbox__label">
+                    <input class="righbox__checkbox visually-hidden" type="checkbox" >
+                    <span class="righbox__controller"></span>
+                    <span class="item__textbox">
+                        <span class="item__strongtext">Apple iPhone 7, 128 GB</span>
+                        <span class="item__lighttext">Electronics #32343424 - 12 July 2015</span>
+                    </span>
+                    <span class="item__current">$650.<sup>00</sup></span>
+                </label>
+            </li>
+            <li class="righbox__item item">
+              <label class="righbox__label">
+                  <input class="righbox__checkbox visually-hidden" type="checkbox" >
+                  <span class="righbox__controller"></span>
+                  <span class="item__textbox">
+                      <span class="item__strongtext">Funds Added</span>
+                      <span class="item__lighttext">Payment #5435 - 11 July 2015</span>
+                  </span>
+                  <span class="item__current">$900.<sup>00</sup></span>
+              </label>
+            </li>
+            <li class="righbox__item item">
+              <label class="righbox__label">
+                  <input class="righbox__checkbox visually-hidden" type="checkbox" >
+                  <span class="righbox__controller"></span>
+                  <span class="item__textbox">
+                      <span class="item__strongtext">Energy Bill</span>
+                      <span class="item__lighttext">Other #745237423 - 11 July 2015</span>
+                  </span>
+                  <span class="item__current">$84.<sup>90</sup></span>
+              </label>
+            </li>
+            <li class="righbox__item item">
+              <label class="righbox__label">
+                  <input class="righbox__checkbox visually-hidden" type="checkbox" >
+                  <span class="righbox__controller"></span>
+                  <span class="item__textbox">
+                      <span class="item__strongtext">The Eye Cinema Ticket</span>
+                      <span class="item__lighttext">Entertainment #32343424 - 10 July 2015</span>
+                  </span>
+                  <span class="item__current">$40.<sup>00</sup></span>
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="bigbox__btn site-btn">
+        <button class="site-btn__btn" type="submit">click</button>
+      </div>
+    </form>
+</body>
+</html>
